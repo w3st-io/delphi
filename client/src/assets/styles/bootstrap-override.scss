@@ -1,0 +1,15 @@
+// [IMPORT] Personal //
+@import './sass-variables.scss';
+
+
+$theme-colors: (
+	'primary': #58c6c2,
+);
+
+
+// [IMPORT] //
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+// CUSTOM //
+.bg-darkish { background-color: $darkish !important; }
